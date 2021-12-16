@@ -40,7 +40,7 @@ M.pro = {
   base7 = '#B1B1B1',
   border = '#A1B5B1',
   brown = '#504945',
-  white = '#FFF1F3',
+  white = '#dbd0d2',
   grey = '#72696A',
   black = '#000000',
   pink = '#FF6188',
@@ -284,7 +284,7 @@ M.load_syntax = function(palette)
     },
     Function = {
       fg = palette.green,
-      style = 'italic',
+      --style = 'italic',
     },
     Statement = {
       fg = palette.pink,
@@ -370,7 +370,7 @@ M.load_syntax = function(palette)
       bg = palette.base3,
     },
     Whitespace = {
-      fg = palette.base3,
+      fg = palette.base5,
     },
     WildMenu = {
       fg = palette.white,
@@ -437,7 +437,7 @@ M.load_plugin_syntax = function(palette)
     },
     TSFunction = {
       fg = palette.green,
-      style = 'italic',
+      --style = 'italic',
     },
     TSFuncBuiltin = {
       fg = palette.aqua,
